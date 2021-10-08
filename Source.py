@@ -5,7 +5,7 @@ print("Program pro opravu českých titulků.\n")
 print("Níže zadejte cestu a název souboru bez přípony. Pokud je soubor ve stejné složce, stačí pouze název souboru.\n")
 file_name = input("Zadejte cestu a název souboru: ")
 print("\n\n1) Titulkový soubor (.srt)\n2) Textový soubor (.txt)\n")
-file_type = input("Typ souboru (uveďte číslo): ")
+file_type = int(input("Typ souboru (uveďte číslo): "))
 
 # rozliseni typu souboru
 if file_type == 1:
